@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(226, 222, 222);
+  font-family: sans-serif;
+}
+.container1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/b1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backgroundFilter {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgb(95, 106, 176);
+  background: radial-gradient(
+    circle,
+    rgba(174, 102, 207, 0.6) 24%,
+    rgba(0, 0, 0, 0.9) 97%
+  );
+}
+nav {
+  color: white;
+  font-size: 15px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 40px;
+}
+
+.text-nav {
+  transform: rotate(90deg);
+}
+.mainPage {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 70px;
+  left: 0px;
+}
+.c1 {
+  width: 100%;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  background-color: transparent;
+  color: rgb(226, 222, 222);
+  border: 1px solid rgb(226, 222, 222);
+  font-size: 13px;
+  width: 100px;
+  height: 25px;
+}
+h1 {
+  font-size: 90px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 20px;
+}
+.c2 {
+  width: 100%;
+  height: 70vh;
+}
+p {
+  justify-content: left;
+  width: 70%;
+  font-size: 10px;
+}
+.c3 {
+  height: 15vh;
+  margin-left: 32vh;
+  border-top: solid 1px rgb(226, 222, 222);
+}
+h3 {
+  font-size: 15px;
+  margin: 6px;
+}
+.c3 span {
+  height: 100%;
+  width: 100%;
+  font-size: 9px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  margin: 5px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid rgb(226, 222, 222);
+}
+.circle1 {
+  width: 9px;
+  height: 9px;
+  margin: 5px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: rgb(226, 222, 222);
+  border: 1px solid rgb(226, 222, 222);
+}
+.h3-b {
+  border-right: 1px solid rgb(226, 222, 222);
+}
+a {
+  text-decoration: none;
+  border-left: 1px solid rgb(226, 222, 222);
+  color: rgb(226, 222, 222);
+  font-size: 12px;
+  padding-left: 10px;
+}
+iframe {
+  opacity: 0.5;
+}
+.borderExplore {
+  padding-bottom: 20vh;
+  border-bottom: 1px solid rgb(226, 222, 222);
+}
